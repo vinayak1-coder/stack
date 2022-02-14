@@ -1,6 +1,6 @@
 // stack using linked list
 
-public class stack {
+class stacklinkedlist {
     class Node {
         int element;
         Node next;
@@ -68,7 +68,7 @@ public class stack {
     }
 
     public static void main(String args[]) {
-        stack s = new stack();
+        stacklinkedlist s = new stacklinkedlist();
         s.push(5);
         s.push(3);
         s.display();
